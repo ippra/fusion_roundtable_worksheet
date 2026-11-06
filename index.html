@@ -146,7 +146,7 @@
 
   <section>
     <div class="head"><div class="num">1</div><h3>Preliminary Answer</h3></div>
-    <p class="prompt">What would you tell a member of the public? Draft a direct answer in 3&ndash;5 sentences.</p>
+    <p class="prompt">What would you tell a member of the public? Draft a direct answer in 3-5 sentences.</p>
     <textarea id="s1" data-key="s1" aria-label="Preliminary answer"></textarea>
     <div class="meta"><span id="s1-count">0 sentences</span></div>
     <div class="print-only" data-for="s1"></div>
@@ -229,7 +229,7 @@
   function refresh() {
     const n = sentences(document.getElementById("s1").value);
     const c = document.getElementById("s1-count");
-    c.textContent = n + (n === 1 ? " sentence" : " sentences") + (n > 5 ? " (aim for 3–5)" : "");
+    c.textContent = n + (n === 1 ? " sentence" : " sentences") + (n > 5 ? " (aim for 3-5)" : "");
     document.querySelectorAll(".print-only").forEach(p => {
       const key = p.dataset.for;
       const f = document.querySelector('[data-key="' + key + '"]');
