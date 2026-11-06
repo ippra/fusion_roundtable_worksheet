@@ -3,7 +3,7 @@
 Breakout worksheet for the INFUSE expert roundtable, run by the Socio-Technical
 Observatory for Fusion Energy (OU IPPRA).
 
-Live version: https://ripberjt.github.io/fusion-roundtable-worksheet/
+Live version: https://ippra.github.io/fusion_roundtable_worksheet/
 
 - `index.html`: the typeable worksheet. Answers save in your browser as you
   type; print it, save it as a PDF, or download a Word file to send back.
